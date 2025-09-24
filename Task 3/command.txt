@@ -1,0 +1,7 @@
+terraform state list
+
+# aws_instance.datacenter_ec2
+
+terraform plan -replace=aws_instance.datacenter_ec2
+
+terraform plan -apply=aws_instance.datacenter_ec2
